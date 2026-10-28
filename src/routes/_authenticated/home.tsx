@@ -40,7 +40,7 @@ export const Route = createFileRoute("/_authenticated/home")({
   component: HomePage,
 });
 
-export const categoryIcon: Record<string, typeof Code2> = {
+const categoryIcon: Record<string, typeof Code2> = {
   tech: Code2,
   creators: Sparkles,
   growth: TrendingUp,
