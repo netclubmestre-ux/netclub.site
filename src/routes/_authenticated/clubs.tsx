@@ -47,7 +47,7 @@ function ClubsPage() {
           return (
             <div key={g.id} className="surface overflow-hidden">
               <img
-                src={g.cover_url ?? categoryCover[g.category] ?? categoryCover.tech}
+                src={g.cover_url ?? categoryCover[g.category] ?? categoryCover["tech"]}
                 alt=""
                 loading="lazy"
                 className="h-32 w-full object-cover"

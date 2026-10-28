@@ -202,7 +202,7 @@ function HomePage() {
             <Link key={g.id} to="/clubs" className="surface w-44 shrink-0 overflow-hidden transition-transform hover:-translate-y-0.5">
               <div className="relative h-24">
                 <img
-                  src={g.cover_url ?? categoryCover[g.category] ?? categoryCover.tech}
+                  src={g.cover_url ?? categoryCover[g.category] ?? categoryCover["tech"]}
                   alt=""
                   loading="lazy"
                   className="h-full w-full object-cover"
